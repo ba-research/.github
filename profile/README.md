@@ -1,10 +1,15 @@
-# Try Qev
+# Small decision models for everyday work
 
-BA Research is an independent lab in Calgary, Alberta. We pursue pragmatic research and LoRA training to make efficient AI useful in edge, self-hosted, and enterprise deployments. We evaluate real workflows, including energy operations and model routing, and value practical outcomes over benchmark gaming.
+Classification models turn messages and documents into labels that software can act on. A support system can route a ticket, a maintenance workflow can flag a note for review, and a model router can send difficult requests to a larger model. Handling routine decisions with a small model can reduce inference costs and keep more processing on your own infrastructure.
 
-Explore **Qev 1.0**, BA Research's experimental decision model for structured Choice, Score and yes/no questions.
+BA Research is an independent AI research lab in Calgary, Alberta. Our goal is to build the most useful open-source decision models for everyday commercial workflows. We evaluate models on practical tasks and aim for efficient self-hosted deployment and clear commercial-use terms for future releases.
 
-[**Explore Try Qev →**](https://ba-research.github.io/#try) · [0.8B model card](https://huggingface.co/ba-research/Qev1.0-Qwen3.5-0.8B) · [Run locally](https://github.com/ba-research/try-qev/tree/main/local) · [Colab template](https://colab.research.google.com/github/ba-research/try-qev/blob/main/notebooks/ba_research_qev_enterprise_template.ipynb)
+## Try Qev
 
-The browser demo is in development. Local use needs dependencies and authorized model files; the Colab template requires a provisioned cloud environment. Qev is experimental and requires evaluation on your own tasks.
+Qev is our experimental family of decision models based on Qwen. Your application supplies a question and the available answers. Qev scores those answers for tasks like choosing a category, checking a yes/no condition, or applying a scoring rubric.
 
+The Qev 1.0 research checkpoints come in 0.8B, 2B, and 4B sizes. The model cards cover setup, evaluation, and limitations.
+
+[See recorded examples](https://ba-research.github.io/#try) · [Browse models on Hugging Face](https://huggingface.co/ba-research) · [Run locally](https://github.com/ba-research/try-qev/tree/main/local) · [Open the Colab template](https://colab.research.google.com/github/ba-research/try-qev/blob/main/notebooks/ba_research_qev_enterprise_template.ipynb)
+
+Local and Colab setup require authorized model files. Evaluate Qev on your own tasks before using it in a workflow.
